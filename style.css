@@ -1,4 +1,37 @@
 body {
-    font-family: Arial, Helvetica, sans-serif
-    background-color: pink
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    margin: auto;
 }
+main {
+    background-color: rgb(161, 65, 81)
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #b83030;   
+}
+
+header {
+    background-color: #333;
+    color: #4fd15a;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    background-color: #98cb9c;
+    display: flex;
+    list-style: none;
+    justify-content: center; /* Centraliza os itens do menu */
+    gap: 20px; /* Adiciona espaçamento entre os itens do menu */
+}
+
+nav a {
+    color: #b622a7;
+    text-decoration: none;
+
+}   
