@@ -12,26 +12,37 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #b83030;   
+    background-color: #cf8f8f;   
 }
 
 header {
-    background-color: #333;
-    color: #4fd15a;
+    background-color: #f6daff;
+    color: #e283ca;
     padding: 20px 0;
     text-align: center;
-}
-
-nav ul {
-    background-color: #98cb9c;
-    display: flex;
-    list-style: none;
-    justify-content: center; /* Centraliza os itens do menu */
-    gap: 20px; /* Adiciona espaçamento entre os itens do menu */
 }
 
 nav a {
     color: #b622a7;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 
-}   
+} 
+
+h2 {
+    text-align: center;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section {
+    background-color:aliceblue;
+    border:3px;
+    width:1000px;
+    height: 160px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
